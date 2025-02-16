@@ -95,7 +95,7 @@ def test_z_score_function():
 # Be sure to include names of the group members that  #
 # participated in the group assignment work           #
 #######################################################
-
+# This is just a demonstration commit change, please ignore this line
 def z_score(x, mu, sigma):
     """
     x is the population item
