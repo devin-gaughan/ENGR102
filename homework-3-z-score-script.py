@@ -95,7 +95,7 @@ def test_z_score_function():
 # Be sure to include names of the group members that  #
 # participated in the group assignment work           #
 #######################################################
-# This is just a demonstration commit change, please ignore this line
+
 def z_score(x, mu, sigma):
     """
     x is the population item
@@ -126,7 +126,23 @@ def additional_tests():
     result2 = z_score(x2, mu2, sigma2)
     print("Test Case 2:", result2, "Expected:", expected2)
     
+    # Test Case 3
+    x3, mu3, sigma3 = 70, 50, 10
+    expected3 = 2.0
+    result3 = z_score(x3, mu3, sigma3)
+    print("Test Case 3:", result3, "Expected:", expected3)
 
+    # Test Case 4
+    x4, mu4, sigma4 = 50, 50, 10
+    expected4 = 0
+    result4 = z_score(x4, mu4, sigma4)
+    print("Test Case 4:", result4, "Expected:", expected4)
+
+    # Test Case 5
+    x5, mu5, sigma5 = 60, 50, 10
+    expected5 = 1.0
+    result5 = z_score(x5, mu5, sigma5)
+    print("Test Case 5:", result5, "Expected:", expected5)
 
 
 test_z_score_function()
